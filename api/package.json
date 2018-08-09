@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://larse514:5b0d86e803cd290c80900a7757c18a1b6db82641@github.com/larse514/samtranslator-ui.git"
+    "url": "git+https://github.com/larse514/samtranslator-ui.git"
   },
   "bugs": {
     "url": "https://github.com/larse514/samtranslator-ui/issues"
