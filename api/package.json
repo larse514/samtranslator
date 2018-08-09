@@ -1,0 +1,22 @@
+{
+  "name": "aws-simple-http-endpoint",
+  "version": "1.0.0",
+  "description": "Example demonstrates how to setup a simple HTTP GET endpoint with python",
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://larse514:5b0d86e803cd290c80900a7757c18a1b6db82641@github.com/larse514/samtranslator-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/larse514/samtranslator-ui/issues"
+  },
+  "homepage": "https://github.com/larse514/samtranslator-ui#readme",
+  "dependencies": {
+    "serverless-python-requirements": "^4.1.1"
+  }
+}
