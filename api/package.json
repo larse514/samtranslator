@@ -1,7 +1,7 @@
 {
   "name": "aws-simple-http-endpoint",
   "version": "1.0.0",
-  "description": "Example demonstrates how to setup a simple HTTP GET endpoint with python",
+  "description": "Samtranslator ui",
   "author": "",
   "license": "MIT",
   "main": "index.js",
