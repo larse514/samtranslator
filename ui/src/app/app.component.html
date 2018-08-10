@@ -15,12 +15,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
       </ul>
     </div>
   </div>
@@ -28,23 +22,24 @@
 <br/>
 <br/>
 <br/>
-<br/>
-
+    <!-- Page Content -->
+    <div class="container">
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="form-group">
   <label for="inputTemplate">Input Template</label>
-  <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
-  <button>Submit</button>
+  <textarea id="template" class="form-control rounded-0" id="exampleFormControlTextarea1" rows="8" #template></textarea>
+  <a href="#" class="btn btn-primary" (click)="translateTemplate(template.value)" >Convert</a>
 
 </div>
 <br/>
 
 <div class="form-group">
   <label for="outputTemplate">Output Template</label>
-  <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="10"></textarea>
+  <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="8">{{transformedTemplate}}</textarea>
 
 </div>
-
+</div>
+<!-- /.container -->
 <!-- Footer -->
 <footer class="py-5 bg-dark">
   <div class="container">

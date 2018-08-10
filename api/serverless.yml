@@ -22,4 +22,5 @@ functions:
           method: post
           response:
             headers:
-              Content-Type: application/text
+              Content-Type: "'text/x-yaml'"
+              cors: true
